@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var student = {
+			name : 'Иван',
+			surname : 'Иванов',
+			group : '1',
+			age : '18',
+			email : 'mail@mail.com',
+			phone : '000 000 00 00',
+			
+			a :  function(){
+				var c = (this.name +', ' + this.surname + ', ' + this.age);
+				console.log(c);
+			},
+			b : function (){
+				console.log(this.group +', '+ this.email +', '+ this.phone);
+			}
+		}
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var student = {
+			name : 'Иван',
+			surname : 'Иванов',
+			group : '1',
+			age : '18',
+			email : 'mail@mail.com',
+			phone : '000 000 00 00',
+		}
+		var studentIvan = function () {
+		var b = prompt('Введите свойство');
+
+			
+				switch(b){
+					case 'name' : 
+				        return student.name
+							break;
+					case 'surname' : 
+						return student.surname
+							break;
+					case 'groupe' : 
+						return student.group
+							break;
+					case 'age' : 
+						return student.age
+							break;
+					case 'email' : 
+						return student.email
+							break;
+					case 'phone' : 
+						return student.phone
+							break;
+					default: alert('Таких свойств нет')			
+				
+					
+				
+			} 
+
+
+			
+		}	
+		
+	</script>
+</body>
+</html>
